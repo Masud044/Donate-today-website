@@ -74,16 +74,21 @@
 .plan-item{
  display: flex;
  gap: 20px;
-text-align: center;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  /*align-items: center;*/
+ 
 }
+.title-plan{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .plan-title1{
     padding: 30px;
     height: 230px;
     width: 250px;
      background-color:aliceblue;
-     text-align: center;
+     text-align: left;
      border-radius: 10px;
 }
 .plan-title2{
@@ -91,17 +96,22 @@ align-items: center;
     padding: 30px;
     height: 230px;
     width: 250px;
+    text-align: left;
     background-color:antiquewhite;
-    text-align: center;
+   
     border-radius: 10px;
 }
 .plan-title3{
     padding: 30px;
     height: 230px;
     width: 250px;
+    text-align: left;
     background-color:blanchedalmond;
-    text-align: center;
+   
     border-radius: 10px;
+}
+.plan-image{
+    margin-right:200px;
 }
 .images{
     
@@ -128,6 +138,7 @@ align-items: center;
     margin-right:100px;
     margin-top:80px ;
 }
+
 .update{
     
     text-align: center;
@@ -137,18 +148,40 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px 40px;
+    background-color:bisque;
+    margin-left: 25%;
+    margin-right: 25%;
+   
 }
 .email{
     border: none;
     padding: 15px 20px;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color:honeydew;
    
 }
 .suscribe-b{
     
     background-color: rgb(218, 18, 18) ;
     padding: 15px 20px;
+    color: white;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer-work{
+    text-align: center;
+    padding: 50px 40px;
+    background-color: black;
+    margin-top: 100px;
+
+}
+.footer-items{
+    font-style:oblique;
+    color:tomato;
+}
+.footer-des{
     color: white;
 }
 
